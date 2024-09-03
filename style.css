@@ -137,28 +137,25 @@ section{
 
 }
 .btn {
+  width: auto;
   display: inline-block;
   padding: 1rem 3rem;
   background: black;
   box-shadow: 0 0 25px var(--main-color);
   border-radius: 3rem;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   color:var(--text-color);
   border: 2px solid transparent;
   font-weight: 600;
   transition: 0.3s ease-in-out;
 }
-.btn-group a:nth-of-type(1):hover{
+.btn:hover{
   box-shadow: 0 0 25px var(--main-color);
   background-color: var(--main-color);
   color: black;
 }
 
-.btn-group a:nth-of-type(2):hover{
-  box-shadow: 0 0 25px var(--main-color);
-  background-color: var(--main-color);
-  color: black;
-}
+
 .about {
   justify-content: center;
   align-items: center;
@@ -276,7 +273,15 @@ section{
 }
 .footer{
   background-color: var(--bg-color);
-  padding-bottom: 15px;
+  padding: 15px 0;
+}
+
+.footer p{
+  color: var(--text-color);
+  text-align: center;
+  padding-top: 3px;
+  font-size: 18px; 
+  line-height: 3rem; 
 }
 
 .footer .social-icons{
@@ -286,7 +291,7 @@ section{
 
 .footer .copyright{
   text-align: center;
-  margin-top: 5px;
+  margin-top: 3px;
   font-size: 16px;
   color: var(--text-color);
 }
@@ -298,6 +303,7 @@ section{
   text-decoration: underline;
 
 }
+
 
 
 
