@@ -296,13 +296,33 @@ section{
   color: var(--text-color);
 }
 .portfolio_topics h2{
-  font-size: 2rem;
-  color: var(--text-color);
+  font-size: 3rem;
+  font-weight: 350;
+  color: var(--main-color);
   text-align: left;
   margin-top: 5rem;
   text-decoration: underline;
 
 }
+.portfolio_topics h3{
+  font-size: 2rem;
+  font-weight: 200;
+  color: var(--text-color);
+  text-align: left;
+  margin-top: 2rem;
+  text-decoration: underline;
+
+}
+.portfolio_topics p{
+  font-size: 1.8rem;
+  font-weight: 200;
+  color: var(--text-color);
+  text-align: left;
+  margin-top: 1rem;
+}
+
+
+
 
 
 
