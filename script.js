@@ -1,4 +1,4 @@
-const menuIcon = document.querySelector('#menu-icon');
+const menuIcon = document.querySelector('#menu_icon');
 const navbar = document.querySelector('.navbar');
 
 menuIcon.onclick = () => {
