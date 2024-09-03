@@ -65,7 +65,7 @@ span{
 }
 section{
   min-height: 100vh;
-  padding: 10rem 12%;
+  padding: 5rem 12%;
   background: var(--second-bg-color);
   color: white;
   
@@ -83,19 +83,19 @@ section{
   text-align: left;
 }
 .home-content h1{
-  font-size: 7.5rem;
-  font-weight: 700;
-  margin-top: 1.5rem;
-  line-height: 1;
+  font-size: 5rem;
+  font-weight: 500;
+  margin-top: 6.5rem;
+  line-height: 1.2;
 }
 .home-content h3 {
-  font-size: 4rem;
+  font-size: 3rem;
   margin: 1rem 0;
 
 }
 .home-content p {
   font-size: 1.5rem;
-  font-weight: 500;
+  font-weight: 300;
   line-height: 1.8;
 }
 .home-img img{
@@ -174,11 +174,14 @@ section{
   0 0 100px var(--main-color);
 }
 .about-content h2{
-  font-size: 7rem;
+  font-size: 5rem;
   text-align: left;
+  margin: 1.5rem 0;
 }
 .about-content p{
-  font-size: 1.8rem;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.8;
 }
 .about-content .btn{
   margin: 3rem 0;
@@ -202,7 +205,10 @@ section{
   
 }
 .skills h2{
-  color:var(--text-color)
+  color:var(--text-color);
+  font-size: 5rem;
+  text-align: center;
+  margin-bottom: 3rem;
 }
 .skills-container{
   display: grid;
@@ -215,7 +221,7 @@ section{
   justify-content: center;
   align-items: center;
   background-color: var(--main-color);
-  height: 600px;
+  height: 400px;
   border-radius: 3rem;
   cursor: pointer;
   border: 5px solid transparent;
@@ -253,6 +259,8 @@ section{
 
 }
 .contact h2{
+  font-size: 5rem;
+  text-align: center;
   margin-bottom: 3rem;
   color: var(--text-color);
 }
@@ -283,25 +291,11 @@ section{
 .footer .social-icons{
   text-align: center;
 }
-.footer ul{
-  text-align: center;
-  font-size: 1.8rem;
-}
-.footer ul li{
-  display: inline-block;
-  margin-left: 20px;
-}
-.footer ul li a{
-  color: white;
-  border-bottom: 3px solid transparent;
-  transition: 0.3s ease-in-out;
-}
-.footer ul li a:hover{
-  border-bottom: 3px solid var(--main-color);
-}
+
+
 .footer .copyright{
   text-align: center;
-  margin-top: 30px;
+  margin-top: 5px;
   font-size: 16px;
   color: var(--text-color);
 }
