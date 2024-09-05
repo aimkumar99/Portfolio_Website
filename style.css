@@ -334,6 +334,9 @@ section{
   .skill-box {
     flex-direction: column;
   }
+  .skill-info {
+    width: 50%;
+  }
   .contact form{
     flex-direction: column;
   }
