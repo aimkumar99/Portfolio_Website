@@ -467,9 +467,27 @@ section{
   line-height: 1.8;
 }
 
-
-
-
+.project_names{
+  display: inline-block;
+}
+.project_names a{
+  font-size: 1.8rem;
+  color: var(--text-color);
+}
+.details{
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+.description_box{
+  width: 100%;
+  font-size: 1.8rem;
+  text-align: center;
+  font-style: italic;
+  text-decoration: underline;
+}
 
 
 @media(max-width:1024px){
