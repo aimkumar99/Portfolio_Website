@@ -389,8 +389,6 @@ section{
 
 .resume_topics {
   position: relative;
-  padding-top: 5rem;
-  padding-bottom: 0;
   
 }
 .resume_topics h2{
@@ -398,7 +396,7 @@ section{
   font-weight: 350;
   color: var(--main-color);
   text-align: left;
-  margin-top: 5rem;
+  margin-top: 4rem;
   text-decoration: underline;
   font-style: italic;
 
@@ -408,7 +406,7 @@ section{
   font-weight: 200;
   color: var(--text-color);
   text-align: left;
-  margin-top: 2rem;
+  margin-top: 1rem;
   text-decoration: underline;
   font-style: italic;
 
