@@ -486,7 +486,11 @@ section{
   font-style: italic;
   text-decoration: underline;
 }
-
+.video {
+  width: 100%;
+  aspect-ratio: 2;
+  border-radius: 5rem;
+}
 
 
 @media(max-width:1024px){
